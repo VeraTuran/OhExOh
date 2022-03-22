@@ -8,8 +8,9 @@ let currentPlayer = "X";
 // initializes board
 let gameState = ["", "", "", "", "", "", "", "", ""];
 // messages
-const winningMessage = () => `Player ${currentPlayer} has won!`;
-const drawMessage = () => `Game ended in a draw! Everybody wins : )`;
+const winningMessage = () => `${currentPlayer} has won!`;
+const drawMessage = () =>
+  `Game ended in a draw! Everybody wins <i class="fa-solid fa-heart"></i>`;
 const currentPlayerTurn = () => `It's ${currentPlayer}'s turn`;
 statusDisplay.innerHTML = currentPlayerTurn();
 
