@@ -3,12 +3,17 @@
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Fredoka One", cursive; */
   /* background-color: pink; */
 }
 section {
   text-align: center;
 }
+
+.game--title {
+  font-family: "Fredoka One", cursive;
+}
+
 .game--container {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -16,7 +21,7 @@ section {
   margin: 50px auto;
 }
 .cell {
-  font-family: "Playfair Display", serif;
+  font-family: "Fredoka One", cursive;
   width: 100px;
   height: 100px;
   box-shadow: 0 0 0 1px #333333;
@@ -24,4 +29,8 @@ section {
   cursor: pointer;
   line-height: 100px;
   font-size: 60px;
+}
+
+.game--status, .game--restart {
+  font-family: "Montserrat", sans-serif;
 }
